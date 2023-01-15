@@ -1,0 +1,23 @@
+{% extends 'layout.html' %} {% block content %}
+    <ul class="content-lists">
+        <h3>After Cleaning Text:</h3>
+        <li class="Cleaning">{{clean_text}}</li>
+
+        <h3>Letter Frequency:</h3>
+        <li class="letter_frequency">{{letters_freq}}</li>
+
+        <h3>Total letter:</h3>
+        <li class="letter_frequency">{{len_letter}}</li>
+
+        <h3>Words Frequency:</h3>
+        <li class="word_frequency">{{words_freq}}</li>
+        
+        <h3>Total Word:</h3>
+        <li class="word_frequency">{{len_words}}</li>
+
+        <h3>Most Used Word:</h3>
+        <li class="word_frequency">{{most_used_word}}</li>
+        
+    </ul>
+
+    {% endblock %}
